@@ -1,7 +1,7 @@
 baseURL = "https://example.com"
 languageCode = "en"
 defaultContentLanguage = "en"
-title = "KeepIt"
+title = "MJSmithDev"
 theme = "KeepIt"
 
 paginate = 12
@@ -21,7 +21,7 @@ disqusShortname = "yourdiscussshortname"
   noreferrerLinks = true
 
 [Permalinks]
- posts = "/:year/:filename/"
+ posts = "/:filename/"
 
 [menu]
   [[menu.main]]
@@ -40,9 +40,9 @@ disqusShortname = "yourdiscussshortname"
     weight = 4
 
 [params]
-    since = 2012
-    author = "Fastbyte01"               # Author's name
-    subtitle = "A Hugo theme"       # Subtitle
+    since = 2012 
+    author = "Matt"               # Author's name
+    subtitle = "Development Notes from Matt Smith of PA, USA" # Subtitle
     cdn_url = ""           # Base CDN URL
     home_mode = "" # post or other
 
