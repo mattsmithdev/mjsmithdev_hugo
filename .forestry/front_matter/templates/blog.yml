@@ -8,3 +8,14 @@ fields:
 - type: datetime
   name: date
   label: date
+  default: now
+- name: featured_image
+  type: text
+  config:
+    required: false
+  label: featured_image
+  default: https://source.unsplash.com/collection/1103088/1200x600
+- name: tags
+  type: tag_list
+  default: []
+  label: tags
