@@ -1,20 +1,15 @@
 +++
-title = "About"
+aliases = ["about-us", "about-hugo", "contact"]
 date = "2014-04-09"
-aliases = ["about-us","about-hugo","contact"]
-[ author ]
-  name = "Hugo Authors"
+title = "About"
+[author]
+name = "Hugo Authors"
+
 +++
+Hi, everybody! To all one of you reading this let me just say - stop! Go doing something more productive or fun with your life. If you really must continue reading I'll give you the two second intro...
 
-Hugo is the **world’s fastest framework for building websites**. It is written in Go.
+Hi, I'm Matt Smith. One of the many, many Smiths (we're a big family). I'm a developer in Pennsylvania, USA. I've got a family, two dogs, and two rabbits (anyone want some rabbits?).
 
-It makes use of a variety of open source projects including:
+I've been a developer for more years than it's worth mentioning here. I mostly work on .net, JavaScript, and Angular in the fintech industry. I also enjoy the startup scene and I'm constantly coming up with things I want to work on.
 
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
-
+Anyway, now go outside and run around in the rain (just not during thunderstorms). It's a real hoot.
