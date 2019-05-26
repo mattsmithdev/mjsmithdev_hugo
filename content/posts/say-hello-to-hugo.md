@@ -4,7 +4,8 @@ date: 2019-05-23T18:53:31.000+00:00
 featured_image: https://source.unsplash.com/collection/1103088/1200x600
 tags:
 - blog
-category: blog
+categories:
+- blog
 draft: true
 
 ---
