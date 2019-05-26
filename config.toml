@@ -1,19 +1,19 @@
-baseURL = "https://example.com"
+baseURL = "https://mjsmithdev.com"
 languageCode = "en"
 defaultContentLanguage = "en"
-title = "MJSmithDev"
+title = "MjSmithDev.com"
 theme = "KeepIt"
 
 paginate = 12
 enableEmoji = true
 enableRobotsTXT = true
-googleAnalytics = ""
-disqusShortname = "yourdiscussshortname"
+googleAnalytics = "UA-140849882-1"
+disqusShortname = "mjsmithdev"
 
 [sitemap]
-  changefreq = "monthly"
+  changefreq = "weekly"
   filename = "sitemap.xml"
-  priority = 0.5
+  priority = 0.4
 
 [blackfriday]
   hrefTargetBlank = true
@@ -41,8 +41,8 @@ disqusShortname = "yourdiscussshortname"
 
 [params]
     since = 2012 
-    author = "Matt"               # Author's name
-    subtitle = "Development Notes from Matt Smith of PA, USA" # Subtitle
+    author = "Matt J Smith"               # Author's name
+    subtitle = "Development Blog from Matt Smith of PA, USA" # Subtitle
     cdn_url = ""           # Base CDN URL
     home_mode = "" # post or other
 
@@ -52,25 +52,25 @@ disqusShortname = "yourdiscussshortname"
     pinterest_verification = ""
     baidu_verification = ""
     
-    avatar = "/images/me/avatar.jpg" #comment it to use gravatar
+    avatar = "/images/moose_sm.jpg" #comment it to use gravatar
     socialShare = true
     
-    description = "" # site description
+    description = "A blog from Matt Smith on .Net, Javascript, and startup development " # site description
     keywords = "" # site keywords
 
     license= 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
 [params.gravatar]
-    #email = "example@gmail.com"   #uncomment and insert your email address to use gravatar
+    #email = "quaffapint@gmail.com"   #uncomment and insert your email address to use gravatar
 
 
 [params.social]
-    GitHub = "xxxx"
-    Linkedin = "xxxx"
-    Twitter = "xxxx"
+    #GitHub = "xxxx"
+    Linkedin = "mattsmithdev"
+    Twitter = "mjsmithdev"
     #Instagram = "xxxx"
-    #Email   = "xxxx"
-    Facebook = "xxxx"
+    Email   = "quaffapint+blog@gmail.com"
+    #Facebook = "xxxx"
     #Telegram = "xxxx"
     #Medium = "xxxx"
     #Gitlab = "xxxx"
@@ -129,7 +129,7 @@ Facebook = true
 #Reddit = true
 Linkedin = true
 #Pinterest = true
-#HackerNews = true
+HackerNews = true
 #Mix = true
 #Tumblr = true
 #VKontakte = true
@@ -140,23 +140,23 @@ Linkedin = true
 copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
 
 [author]
-  name = "Fastbyte01"
+  name = "Matt Smith"
 
   [params.publisher]
-    name = "Fastbyte01"
+    name = "Matt Smith"
 
     [params.publisher.logo]
-      url = "logo.png"
-      width = 127
-      height = 40
+      url = "/images/moose_sm.jpg"
+      width = 300
+      height = 330
 
   [params.logo]
-    url = "logo.png"
-    width = 127
-    height = 40
+    url = "/images/moose_sm.jpg"
+    width = 300
+    height = 330
 
   [params.image]
-    url = "cover.png"
+    url = ""
     width = 800
     height = 600
 
