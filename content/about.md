@@ -3,7 +3,7 @@ aliases = ["about-us", "about-hugo", "contact"]
 date = "2014-04-09"
 title = "About"
 [author]
-name = "Hugo Authors"
+name = "Matt J Smith"
 
 +++
 Hi, everybody! To all one of you reading this let me just say - stop! Go doing something more productive or fun with your life. If you really must continue reading I'll give you the two second intro...
