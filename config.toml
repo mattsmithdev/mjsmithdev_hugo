@@ -42,7 +42,7 @@ disqusShortname = "mjsmithdev"
 [params]
     since = 2012 
     author = "Matt J Smith"               # Author's name
-    subtitle = "Development Blog from Matt Smith of PA, USA" # Subtitle
+    subtitle = "Code Blog from Matt Smith of PA, USA" # Subtitle
     cdn_url = ""           # Base CDN URL
     home_mode = "" # post or other
 
@@ -55,7 +55,7 @@ disqusShortname = "mjsmithdev"
     avatar = "/images/moose_sm.jpg" #comment it to use gravatar
     socialShare = true
     
-    description = "A blog from Matt Smith on .Net, Javascript, and startup development " # site description
+    description = "A code blog from Matt Smith on .Net, Javascript, and startup development " # site description
     keywords = "" # site keywords
 
     license= 'Released under <a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
