@@ -19,10 +19,9 @@ fields:
   type: tag_list
   default: []
   label: tags
-- name: category
-  type: text
-  config:
-    required: false
-  label: category
+- name: categories
+  type: tag_list
+  default: []
+  label: categories
 pages:
 - content/posts/my-first-post.md
