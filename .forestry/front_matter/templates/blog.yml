@@ -24,3 +24,5 @@ fields:
   config:
     required: false
   label: category
+pages:
+- content/posts/my-first-post.md
