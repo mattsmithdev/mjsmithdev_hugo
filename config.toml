@@ -1,7 +1,7 @@
 baseURL = "https://mjsmithdev.com"
 languageCode = "en"
 defaultContentLanguage = "en"
-title = "MjSmithDev.com"
+title = "MjS Code Blog"
 theme = "KeepIt"
 
 paginate = 12
