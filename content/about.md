@@ -6,7 +6,7 @@ title = "About"
 name = "Matt J Smith"
 
 +++
-Hi, everybody! To all one of you reading this let me just say - stop! Go doing something more productive or fun with your life. If you really must continue reading I'll give you the two second intro...
+![Matt Smith](/uploads/matt-smith-dev.jpg)Hi, everybody! To all one of you reading this let me just say - stop! Go doing something more productive or fun with your life. If you really must continue reading I'll give you the two second intro...
 
 Hi, I'm Matt Smith. One of the many, many Smiths (we're a big family). I'm a developer in Pennsylvania, USA. I've got a family, two dogs, and two rabbits (anyone want some rabbits?).
 
