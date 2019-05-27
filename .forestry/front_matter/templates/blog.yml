@@ -14,7 +14,7 @@ fields:
   config:
     required: false
   label: featured_image
-  default: https://source.unsplash.com/collection/1103088/1200x600
+  default: https://source.unsplash.com/collection/1459961/800x400/daily
 - name: tags
   type: tag_list
   default: []
@@ -23,5 +23,3 @@ fields:
   type: tag_list
   default: []
   label: categories
-pages:
-- content/posts/my-first-post.md
