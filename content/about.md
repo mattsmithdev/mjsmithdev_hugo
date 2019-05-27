@@ -1,5 +1,5 @@
 +++
-aliases = ["about-us", "about-hugo", "contact"]
+aliases = []
 date = "2014-04-09"
 title = "About"
 [author]
