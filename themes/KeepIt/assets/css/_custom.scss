@@ -3,6 +3,20 @@
 // ==============================
 // You can override the variables in _variables.scss to customize the style
 $dark-font-color: #fff;
-.grayscale{
+.grayscale {
 	filter: grayscale(100%);
+}
+.comment_button {
+	border: none;
+    padding: 0.75rem;
+    background-color: #2d96bd;
+	color: #fff;
+    cursor: pointer;
+	.dark-theme & {
+		background-color: rgb(166, 166, 166);
+	}
+}
+
+.comment_button:hover, .comment_button:active {
+	font-weight: 700;
 }
