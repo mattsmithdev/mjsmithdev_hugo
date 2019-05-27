@@ -23,3 +23,8 @@ fields:
   type: tag_list
   default: []
   label: categories
+- name: description
+  type: text
+  config:
+    required: false
+  label: description
