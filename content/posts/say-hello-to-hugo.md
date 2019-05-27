@@ -1,12 +1,11 @@
 ---
 title: 'Say hello to Hugo '
-date: 2019-05-26T14:53:31-04:00
+date: 2019-05-26T18:53:31.000+00:00
 featured_image: https://source.unsplash.com/collection/1459961/800x400/daily
 tags:
 - blog
 categories:
 - blog
-draft: true
 
 ---
 ***
