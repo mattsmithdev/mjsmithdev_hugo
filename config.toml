@@ -10,7 +10,7 @@ enableRobotsTXT = true
 googleAnalytics = "UA-140849882-1"
 disqusShortname = "mjsmithdev"
 
-pygmentscodefences = true
+pygmentsCodeFences = true
 pygmentsStyle = "colorful"
 
 [sitemap]

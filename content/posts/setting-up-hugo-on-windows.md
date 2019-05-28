@@ -52,7 +52,7 @@ Hugo, like many static-site generators uses Markdown as its language of choice. 
 For right now we'll just use the Hugo exe to setup a new draft page for us to test with...
 `hugo new posts/my-first-post.md`
 ...That will create a new draft (non-published) post without any content. If you look at the file under the posts directory in Notepad, you'll see the top of it has some meta information about the post...
-```
+```plaintext
 ---
 title: "My First Post"
 date: 2019-05-28T13:19:36-04:00
