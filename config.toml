@@ -9,6 +9,7 @@ enableEmoji = true
 enableRobotsTXT = true
 googleAnalytics = "UA-140849882-1"
 disqusShortname = "mjsmithdev"
+pygmentsStyle = "colorful"
 
 [sitemap]
   changefreq = "weekly"
