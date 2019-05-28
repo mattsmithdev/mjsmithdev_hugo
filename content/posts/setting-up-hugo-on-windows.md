@@ -2,7 +2,6 @@
 categories = ["hugo"]
 date = "2019-05-28T12:38:50-04:00"
 description = ""
-draft = true
 featured_image = "https://source.unsplash.com/collection/1459961/800x400/daily"
 tags = ["hugo"]
 title = "Setting Up Hugo on Windows"
