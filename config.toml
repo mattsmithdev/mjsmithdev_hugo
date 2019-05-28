@@ -9,6 +9,8 @@ enableEmoji = true
 enableRobotsTXT = true
 googleAnalytics = "UA-140849882-1"
 disqusShortname = "mjsmithdev"
+
+pygmentscodefences = true
 pygmentsStyle = "colorful"
 
 [sitemap]
