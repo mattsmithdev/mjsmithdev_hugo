@@ -28,3 +28,5 @@ fields:
   config:
     required: false
   label: description
+pages:
+- content/posts/setting-up-hugo-on-windows.md
