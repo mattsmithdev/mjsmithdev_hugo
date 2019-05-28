@@ -41,6 +41,30 @@ Hugo uses Themes for the design of the page, similar to Wordpress and other setu
 Select a theme from the Hugo theme page. For example, [KeepIt](https://themes.gohugo.io/keepit/).
 
 1. In the command prompt and Hugo directory from above, change to the  theme's directory...
-	`cd my_project_name\themes`
+   `cd my_project_name\themes`
 2. Clone the theme's code from their repository, for example here's KeepIt's repositiory...
    `git clone https://github.com/Fastbyte01/KeepIt.git`
+
+## Creating Content in Hugo
+
+Hugo, like many static-site generators uses Markdown as its language of choice. You can use the Hugo exe to generate new pages. You can also just create them in Notepad or wherever and save it in the right directory. There are CMS setups, like [Forestry.io](https://forestry.io/) that tie into your setup and let you create pages like you would on Wordpress with a standard editor.
+
+For right now we'll just use the Hugo exe to setup a new draft page for us to test with...
+`hugo new posts/my-first-post.md` ...That will create a new draft (non-published) post without any content. If you look at the file under the posts directory in Notepad, you'll see the top of it has some meta information about the post...
+
+    ---
+    title: "My First Post"
+    date: 2019-05-28T13:19:36-04:00
+    draft: true
+    ---
+
+...Since Hugo doesn't use a database, the meta information about your posts is stored at the top of the file surrounded by --- tags. We'll get more into this later.
+
+## Testing Hugo Locally
+
+Now you have Hugo installed, a theme setup, and even a first post. Yes, right now they're all just default, but let's just test it in a browser anyway. The Hugo exe includes a web server for local testing as part of it. So to fire it up using the drafts switch so we see our test draft post...
+`hugo server -D`
+...By default that will start the server at the following address...
+[http://localhost:1313/](http://localhost:1313/). Go to that in your browser and you'll see your new Hugo site (hopefully)!
+
+We'll get into customizing the theme and adding more articles in future blog posts. Welcome to Hugo!
