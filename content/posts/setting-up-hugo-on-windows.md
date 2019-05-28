@@ -14,6 +14,7 @@ Two steps we want to accomplish here. Get Hugo installed on your Windows machine
 From the [Hugo Install Page](https://gohugo.io/getting-started/installing/#chocolatey-windows)...
 
 Are you using Chocolatey (if not, you should be)? Then it's simple...
+
 `choco install hugo -confirm`
 
 Not using Chocolatey? Get the latest 32/64bit exe release zip from the [Hugo Github repository](https://github.com/gohugoio/hugo/releases). Hugo is a standalone exe with no installer. Just extract it where you would like to use it.
@@ -49,7 +50,8 @@ Select a theme from the Hugo theme page. For example, [KeepIt](https://themes.go
 Hugo, like many static-site generators uses Markdown as its language of choice. You can use the Hugo exe to generate new pages. You can also just create them in Notepad or wherever and save it in the right directory. There are CMS setups, like [Forestry.io](https://forestry.io/) that tie into your setup and let you create pages like you would on Wordpress with a standard editor.
 
 For right now we'll just use the Hugo exe to setup a new draft page for us to test with...
-`hugo new posts/my-first-post.md` ...That will create a new draft (non-published) post without any content. If you look at the file under the posts directory in Notepad, you'll see the top of it has some meta information about the post...
+`hugo new posts/my-first-post.md`
+...That will create a new draft (non-published) post without any content. If you look at the file under the posts directory in Notepad, you'll see the top of it has some meta information about the post...
 
     ---
     title: "My First Post"
@@ -62,7 +64,9 @@ For right now we'll just use the Hugo exe to setup a new draft page for us to te
 ## Testing Hugo Locally
 
 Now you have Hugo installed, a theme setup, and even a first post. Yes, right now they're all just default, but let's just test it in a browser anyway. The Hugo exe includes a web server for local testing as part of it. So to fire it up using the drafts switch so we see our test draft post...
+
 `hugo server -D`
+
 ...By default that will start the server at the following address...
 [http://localhost:1313/](http://localhost:1313/). Go to that in your browser and you'll see your new Hugo site (hopefully)!
 
